@@ -13,7 +13,7 @@ const InvoiceList = () => {
   // Fetch invoice data when the component mounts
   useEffect(() => {
     axios
-      .get("src/data/invoices.json") // Load invoices from a local JSON file
+      .get("/data/invoices.json") // Load invoices from a local JSON file
       .then((response) => {
         setInvoices(response.data); // Update state with fetched data
         setLoading(false); // Set loading to false after data is fetched

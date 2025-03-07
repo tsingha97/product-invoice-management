@@ -18,7 +18,7 @@ const ProductList = () => {
   // Fetch product data when the component mounts
   useEffect(() => {
     axios
-      .get("src/data/products.json") // Fetch product data from local JSON file
+      .get("/data/products.json") // Fetch product data from local JSON file
       .then((response) => response.data)
       .then((data) => setProducts(data)) // Store retrieved products in state
       .catch((error) => console.error("Error fetching products:", error));
