@@ -1,0 +1,37 @@
+[
+  {
+    "storeName": "Store A",
+    "orderId": "1001",
+    "date": "2023-01-15",
+    "items": [
+      {
+        "productName": "Product 1",
+        "quantity": 2,
+        "regularPrice": 50,
+        "dealPrice": 45,
+        "tax": 5
+      },
+      {
+        "productName": "Product 2",
+        "quantity": 1,
+        "regularPrice": 30,
+        "dealPrice": 25,
+        "tax": 2
+      }
+    ]
+  },
+  {
+    "storeName": "Store B",
+    "orderId": "1002",
+    "date": "2023-02-10",
+    "items": [
+      {
+        "productName": "Product 3",
+        "quantity": 3,
+        "regularPrice": 20,
+        "dealPrice": 18,
+        "tax": 1.5
+      }
+    ]
+  }
+]
